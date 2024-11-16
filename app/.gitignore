@@ -1,0 +1,4 @@
+/build
+proguard-rules.pro
+src/androidTest/java/rkandroidapi/ys/com/rkandroidapi/ExampleInstrumentedTest.java
+src/test/java/rkandroidapi/ys/com/rkandroidapi/ExampleUnitTest.java

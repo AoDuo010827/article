@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="USB1" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    style="@style/Button1"
+                    android:text="拉高" />
+
+                <Button
+                    android:id="@+id/btn6"
+                    style="@style/Button1"
+                    android:text="拉低" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="USB2" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    style="@style/Button1"
+                    android:text="拉高" />
+
+                <Button
+                    android:id="@+id/btn9"
+                    style="@style/Button1"
+                    android:text="拉低" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="USB3" />
+
+                <Button
+                    android:id="@+id/btn10"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+                <Button
+                    android:id="@+id/btn11"
+                    style="@style/Button1"
+                    android:text="拉高" />
+
+                <Button
+                    android:id="@+id/btn12"
+                    style="@style/Button1"
+                    android:text="拉低" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="预留输入io1" />
+
+                <Button
+                    android:id="@+id/btn16"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+                <TextView
+                    style="@style/TextView1"
+                    android:layout_marginLeft="10dp"
+                    android:text="高电平读取的值是1，低电平是0.预留io1-4均是" />
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="预留输入io2" />
+
+                <Button
+                    android:id="@+id/btn19"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/layout1">
+
+                <TextView
+                    style="@style/TextView1"
+                    android:text="预留输入io3" />
+
+                <Button
+                    android:id="@+id/btn22"
+                    style="@style/Button1"
+                    android:text="当前状态" />
+
+            </LinearLayout>
+
+            <rkandroidapi.ys.com.rkandroidapi.FlexBoxLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout style="@style/layout1">
+
+                    <TextView
+                        style="@style/TextView1"
+                        android:text="预留io4" />
+
+                    <Button
+                        android:id="@+id/btn17"
+                        style="@style/Button1"
+                        android:text="当前状态" />
+
+                    <Button
+                        android:id="@+id/btn25"
+                        style="@style/Button1"
+                        android:text="当前是输入还是输出" />
+
+                    <Button
+                        android:id="@+id/btn20"
+                        style="@style/Button1"
+                        android:text="设置为输出" />
+
+                    <Button
+                        android:id="@+id/btn21"
+                        style="@style/Button1"
+                        android:text="设置为输入" />
+
+                    <Button
+                        android:id="@+id/btn26"
+                        style="@style/Button1"
+                        android:text="拉高" />
+
+                    <Button
+                        android:id="@+id/btn27"
+                        style="@style/Button1"
+                        android:text="拉低" />
+
+                </LinearLayout>
+            </rkandroidapi.ys.com.rkandroidapi.FlexBoxLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

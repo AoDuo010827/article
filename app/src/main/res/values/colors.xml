@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#FFF</color>
+    <color name="themColor">#42B9D7</color>
+    <color name="blue">#1296db</color>
+    <color name="transparent_half_middle">#30000000</color>
+    <color name="transparent_half">#99000000</color>
+
+    <color name="colorTipsTrans">#50346bb4</color>
+
+    <color name="transparent_half_red">#99F0001D</color>
+    <color name="transparent_half_app">#9942B9D7</color>
+    <color name="transparent_orange">#99FFB03E</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="hint_color">#5a5b5d</color>
+    <color name="black">#000000</color>
+    <color name="bg_first_color">#021D3B</color>
+    <color name="red">#F0001D</color>
+    <color name="back_ground">#b8b8b8</color>
+    <color name="app_txt_color">#4D4D4D</color>
+    <color name="trans">#00000000</color>
+    <color name="lightGrey">#d3d3d3</color>
+    <color name="setting_tv_label_color">#fff</color>
+    <color name="app_green">#41e8b4</color>
+    <color name="green">#3fcd3b</color>
+    <color name="bg_color">#F8F9FD</color>
+    <color name="title_color">#D4E9FC</color>
+
+    <color name="orange">#FFB03E</color>
+    <color name="btn_color">#5AA7F5</color>
+    <color name="btn_color_down">#3a76b3</color>
+    <color name="tip_color">#717171</color>
+    <color name="face_text">#cda76e</color>
+    <color name="face_tip">#5542B9D7</color>
+    <color name="face_warn">#99F0001D</color>
+    <color name="line_color">#5A5B5D</color>
+    <color name="grey">#373737</color>
+    <color name="blue_dark_jst">#0e3150</color>
+    <color name="yellow">#b89b11</color>
+
+    <color name="color_app">#00CCFF</color>
+    <color name="terminal_settings">#91D51B</color>
+</resources>
